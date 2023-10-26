@@ -63,13 +63,14 @@ def plot_bar_chart():
     v = np.random.rand(7)
 
     plt.bar(np.arange(7), v)
+    plt.show()
 
-    for i, value in enumerate(v):
-        plt.text(i, value+0.01, str(round(value, 2)), ha='center')
 
-    plt.grid(True)
+def pie_chart(n):
+    vals = np.random.random(n)
+    plt.pie(vals)
     plt.show()
 
 
 if __name__ == "__main__":
-    plot_bar_chart()
+    pie_chart(7)
