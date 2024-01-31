@@ -1,0 +1,1 @@
+document.getElementsByClassName("random-pic")[0].setAttribute("src", `img${Math.floor(Math.random() * 4)}.png`)

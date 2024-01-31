@@ -1,0 +1,1 @@
+document.getElementsByClassName("random-pic")[0].setAttribute("src", `su${Math.floor(Math.random() * 3)}.jpeg`)
