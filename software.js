@@ -1,0 +1,1 @@
+document.getElementsByClassName("random-pic")[0].setAttribute("src", `soft${Math.floor(Math.random() * 3)}.png`)
